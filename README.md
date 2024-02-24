@@ -7,7 +7,7 @@ Lib that migrates auto the code.
 import the migrate() and run it, with the sqlFIle path and connection Params:
 
 ```
-////migration.js
+////migration.ts
 import migrate from 'quick-migrate-lib'
 
 const connectionParams = {
@@ -24,6 +24,8 @@ migrate(sqlFile, connectionParams);
 
 ```
 
-to execute this method in npm, goto package.json scripts and
+to execute this method in npm, goto package.json scripts and install tsx;
 
-node src/migrate.js
+npm i --save-dev tsx;
+
+tsx src/migrate.ts

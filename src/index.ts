@@ -13,6 +13,5 @@ export default function migrate(
 ) {
   const database = new Database(dataBaseParams);
   const data = fs.readFileSync(sqlFile, { encoding: "utf-8" });
-  console.log(data);
   return database.migrate(data);
 }

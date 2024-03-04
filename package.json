@@ -1,6 +1,6 @@
 {
   "name": "quick-migrate-lib",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Lib to auto migrate your project ",
   "main": "src/index.ts",
   "type": "module",

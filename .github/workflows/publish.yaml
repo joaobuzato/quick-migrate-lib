@@ -19,9 +19,9 @@ jobs:
       - name: Instalar dependências
         run: npm ci
 
-      - name: Token:
+      - name: Token do npm
         run: echo ${{secrets.NPM_TOKEN}}
-        
+
       - name: Publicar o pacote
         run: npm run pub
         env:

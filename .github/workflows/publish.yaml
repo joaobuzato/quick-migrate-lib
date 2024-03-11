@@ -21,6 +21,7 @@ jobs:
 
       - name: Token:
         run: echo ${{secrets.NPM_TOKEN}}
+        
       - name: Publicar o pacote
         run: npm run pub
         env:

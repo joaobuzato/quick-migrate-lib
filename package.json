@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "pub": "npm version patch --force; npm publish ",
+    "pub": "npm publish ",
+    "pre-commit": "npm version patch --force",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

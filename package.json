@@ -1,12 +1,12 @@
 {
   "name": "quick-migrate-lib",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Lib to auto migrate your project ",
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
     "pub": "npm publish ",
-    "commit": "npm version minor; git commit -am",
+    "commit": "npm version minor --force; git commit -am",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
